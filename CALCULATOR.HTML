@@ -1,0 +1,81 @@
+
+<html>
+<head>
+
+
+	<script type="text/javascript">
+		function ff(x){
+			document.getElementById("LBP").value = x*8500;
+			document.getElementById("SYP").value = x*2300;
+	                document.getElementById("EUR").value = x*0.8;
+		}
+
+	</script>
+
+
+
+
+
+
+<style>
+#rcorners1 {
+  text-align: center;
+  margin: auto;
+  border-radius: 25px;
+  background: #431dd3;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+</style>
+
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+</head>
+<body     bgcolor=#26272c     align="rtl">
+
+
+
+			<table id="rcorners1">
+				<tr>
+					<td   align="left"> <img src="http://www.geonames.org/flags/l/us.gif" width="100%" align="left"></td>
+					<td><input type="text" name="" id="dollar" oninput="ff(this.value)"></td>
+				</tr>
+				<tr>
+					<td><img src="http://www.geonames.org/flags/l/lb.gif"></td>
+					<td><input type="text" name="" id="LBP"></td>
+				</tr>
+				<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/800px-Flag_of_Syria.svg.png" width="100%"></td>
+					<td><input type="text" name="" id="SYP"></td>
+				</tr>
+	<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg" width="100%"></td>
+					<td><input type="text" name="" id="EUR"></td>
+				</tr>
+			</table>
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
