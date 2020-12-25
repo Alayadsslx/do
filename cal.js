@@ -15,7 +15,7 @@ let currencies = [
     name: "US Dollar",
     abbreviation: "USD",
     symbol: "\u0024",
-    flagURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
   },
   {
     name: "Euro",
@@ -27,181 +27,181 @@ let currencies = [
     name: "Japanese Yen",
     abbreviation: "JPY",
     symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/jp.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Japan%28bordered%29.svg"
   },
   {
     name: "British Pound",
     abbreviation: "GBP",
     symbol: "\u00A3",
-    flagURL: "http://www.geonames.org/flags/l/uk.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg"
   },
   {
     name: "Australian Dollar",
     abbreviation: "AUD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/au.gif"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_(converted).svg"
   },
   {
     name: "Canadian Dollar",
     abbreviation: "CAD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/ca.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_(Pantone).svg"
   },
   {
     name: "Swiss Franc",
     abbreviation: "CHF",
     symbol: "\u0043\u0048\u0046",
-    flagURL: "http://www.geonames.org/flags/l/ch.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg"
   },
   {
     name: "Chinese Yuan Renminbi",
     abbreviation: "CNY",
     symbol: "\u00A5",
-    flagURL: "http://www.geonames.org/flags/l/cn.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
   },
   {
     name: "Swedish Krona",
     abbreviation: "SEK",
     symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/se.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg"
   },
   {
     name: "New Zealand Dollar",
     abbreviation: "NZD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/nz.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg"
   },
   {
     name: "Mexican Peso",
     abbreviation: "MXN",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/mx.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
   },
   {
     name: "Singapore Dollar",
     abbreviation: "SGD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/sg.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg"
   },
   {
     name: "Hong Kong Dollar",
     abbreviation: "HKD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/hk.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg"
   },
   {
     name: "Norwegian Krone",
     abbreviation: "NOK",
     symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/no.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg"
   },
   {
     name: "South Korean Won",
     abbreviation: "KRW",
     symbol: "\u20A9",
-    flagURL: "http://www.geonames.org/flags/l/kr.gif"
+       flagURL: "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
   },
   {
     name: "Turkish Lira",
     abbreviation: "TRY",
     symbol: "\u20BA",
-    flagURL: "http://www.geonames.org/flags/l/tr.gif"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
   },
   {
     name: "Russian Ruble",
     abbreviation: "RUB",
     symbol: "\u20BD",
-    flagURL: "http://www.geonames.org/flags/l/ru.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"
   },
   {
     name: "Indian Rupee",
     abbreviation: "INR",
     symbol: "\u20B9",
-    flagURL: "http://www.geonames.org/flags/l/in.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"
   },
   {
     name: "Brazilian Real",
     abbreviation: "BRL",
     symbol: "\u0052\u0024",
-    flagURL: "http://www.geonames.org/flags/l/br.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
   },
   {
     name: "South African Rand",
     abbreviation: "ZAR",
     symbol: "\u0052",
-    flagURL: "http://www.geonames.org/flags/l/za.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg"
   },
   {
     name: "Philippine Peso",
     abbreviation: "PHP",
     symbol: "\u20B1",
-    flagURL: "http://www.geonames.org/flags/l/ph.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
   },
   {
     name: "Czech Koruna",
     abbreviation: "CZK",
     symbol: "\u004B\u010D",
-    flagURL: "http://www.geonames.org/flags/l/cz.gif"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
   },
   {
     name: "Indonesian Rupiah",
     abbreviation: "IDR",
     symbol: "\u0052\u0070",
-    flagURL: "http://www.geonames.org/flags/l/id.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
   },
   {
     name: "Malaysian Ringgit",
     abbreviation: "MYR",
     symbol: "\u0052\u004D",
-    flagURL: "http://www.geonames.org/flags/l/my.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"
   },
   {
     name: "Hungarian Forint",
     abbreviation: "HUF",
     symbol: "\u0046\u0074",
-    flagURL: "http://www.geonames.org/flags/l/hu.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg"
   },
   {
     name: "Icelandic Krona",
     abbreviation: "ISK",
     symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/is.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
   },
   {
     name: "Croatian Kuna",
     abbreviation: "HRK",
     symbol: "\u006B\u006E",
-    flagURL: "http://www.geonames.org/flags/l/hr.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
   },
   {
     name: "Bulgarian Lev",
     abbreviation: "BGN",
     symbol: "\u043B\u0432",
-    flagURL: "http://www.geonames.org/flags/l/bg.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
   },
   {
     name: "Romanian Leu",
     abbreviation: "RON",
     symbol: "\u006C\u0065\u0069",
-    flagURL: "http://www.geonames.org/flags/l/ro.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
   },
   {
     name: "Danish Krone",
     abbreviation: "DKK",
     symbol: "\u006B\u0072",
-    flagURL: "http://www.geonames.org/flags/l/dk.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
   },
   {
     name: "Thai Baht",
     abbreviation: "THB",
     symbol: "\u0E3F",
-    flagURL: "http://www.geonames.org/flags/l/th.gif"
+    flagURL: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
   },
   {
     name: "Polish Zloty",
     abbreviation: "PLN",
     symbol: "\u007A\u0142",
-    flagURL: "http://www.geonames.org/flags/l/pl.gif"
+   flagURL: "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"
   },
 
 ];
