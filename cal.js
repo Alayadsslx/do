@@ -15,7 +15,7 @@ let currencies = [
     name: "US Dollar",
     abbreviation: "USD",
     symbol: "\u0024",
-    flagURL: "http://www.geonames.org/flags/l/us.gif"
+    flagURL: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png"
   },
   {
     name: "Euro",
