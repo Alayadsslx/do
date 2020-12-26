@@ -3,46 +3,59 @@
 <head>
 
 
+
 	<script type="text/javascript">
      
 		function ff(x){
+
+
+			document.getElementById("dollar").value = x*0.000125;
+			document.getElementById("SYP").value = x*0.3125;
+	                document.getElementById("EUR").value = x*0.0001;
+		}
+
+
+	</script>
+
+	<script type="text/javascript">
+     
+		function aa(x){
+
 
 			document.getElementById("LBP").value = x*8000;
 			document.getElementById("SYP").value = x*2500;
 	                document.getElementById("EUR").value = x*0.8;
 		}
 
+
 	</script>
 
+	<script type="text/javascript">
+     
+		function bb(x){
 
 
+			document.getElementById("LBP").value = x*3.2;
+			document.getElementById("dollar").value = x*0.0004;
+	                document.getElementById("EUR").value = x*0.00032;
+		}
 
 
-
-
-
-
-
-
-<html>
-<head>
+	</script>
 
 
 	<script type="text/javascript">
      
-		function ff(x){
+		function cc(x){
 
-			document.getElementById("LBP").value = x*8000;
-			document.getElementById("SYP").value = x*2500;
-	                document.getElementById("EUR").value = x*0.8;
+
+			document.getElementById("LBP").value = x*10000;
+			document.getElementById("SYP").value = x*3125;
+	                document.getElementById("dollar").value = x*1.25;
 		}
 
+
 	</script>
-
-
-
-
-
 
 <style>
 #rcorners1 {
@@ -75,21 +88,26 @@ color: #431dd1;
 <hr align="center" width="50%" size="3" color="#431dd3">
 
 			<table id="rcorners1">
+  <td>USD</td><br>
 				<tr>
+                                       
 					<td   align="left"> <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" width="100px" align="left"></td>
-					<td><input type="text" name="" id="dollar" oninput="ff(this.value)"></td>
+					<td><input type="text" name="" id="dollar" oninput="aa(this.value)"></td>
 				</tr>
+  <td>LBP</td><br>
 				<tr>
 					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/800px-Flag_of_Lebanon.svg.png" width="100px"></td>
-					<td><input type="none" onkeypress="return false;"name="" id="LBP" ></td>
+					<td><input type="none" name="" id="LBP" oninput="ff(this.value)"></td>
 				</tr>
+  <td>SYP</td><br>
 				<tr>
 					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/800px-Flag_of_Syria.svg.png" width="100px"></td>
-					<td><input type="text" onkeypress="return false;" name="" id="SYP"></td>
+					<td><input type="text"  name="" id="SYP" oninput="bb(this.value)"></td>
 				</tr>
+  <td>EUR</td><br>
 	<tr>
 					<td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg" width="100px"></td>
-					<td><input type="text" onkeypress="return false;" name="" id="EUR" ></td>
+					<td><input type="text"  name="" id="EUR"  oninput="cc(this.value)"></td>
 				</tr>
 			</table>
 
