@@ -5,33 +5,152 @@
 
 </head>
 <body bgcolor="black">
-<div id="main-widget-frame-container" class="tv-external-tools__widget-frame-container tv-external-tools__widget-border">
-				<div class="tv-external-tools__widget-iframe-wrap tv-widget-example-container" style="width: 550px; height: 410px; overflow: hidden;"><div class="tradingview-widget-container">
-  <div id="tradingview_92fde"><div id="tradingview_fbaf9-wrapper" style="position: relative;box-sizing: content-box;width: 980px;height: calc(610px - 32px);margin: 0 auto !important;padding: 0 !important;font-family:Arial,sans-serif;"><div style="width: 980px;height: calc(610px - 32px);background: transparent;padding: 0 !important;"><iframe id="tradingview_fbaf9" src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_fbaf9&amp;symbol=NASDAQ%3AAAPL&amp;interval=1&amp;hidesidetoolbar=0&amp;symboledit=1&amp;saveimage=1&amp;toolbarbg=f1f3f6&amp;details=1&amp;studies=%5B%5D&amp;theme=dark&amp;style=2&amp;timezone=Asia%2FJerusalem&amp;studies_overrides=%7B%7D&amp;overrides=%7B%7D&amp;enabled_features=%5B%5D&amp;disabled_features=%5B%5D&amp;locale=ar_AE&amp;utm_source=www.tradingview.com&amp;utm_medium=widget_new&amp;utm_campaign=chart&amp;utm_term=NASDAQ%3AAAPL" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" allowtransparency="true" scrolling="no" allowfullscreen="" frameborder="0"></iframe></div></div></div>
-
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript" nonce="nX0HmCb7J7hqba5W">
-  new TradingView.widget(
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright">‎<a href="https://ar.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">‎الأسواق المالية‎</span></a>‎ من TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
-
-  "symbol": "NASDAQ:AAPL",
-  "interval": "1",
-  "timezone": "Asia/Jerusalem",
-  "theme": "dark",
-  "style": "2",
+  "colorTheme": "dark",
+  "dateRange": "12M",
+  "showChart": true,
   "locale": "ar_AE",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "hide_side_toolbar": false,
-  "allow_symbol_change": true,
-  "details": true,
-  "container_id": "tradingview_92fde"
+  "width": "100%",
+  "height": "100%",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "plotLineColorGrowing": "rgba(152, 0, 255, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(238, 238, 238, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "NASDAQ:TSLA",
+          "d": "usa"
+        },
+        {
+          "s": "NASDAQ:FB",
+          "d": "fb"
+        },
+        {
+          "s": "BITSTAMP:BTCUSD",
+          "d": "bit"
+        },
+        {
+          "s": "NYSE:BABA",
+          "d": "ab"
+        },
+        {
+          "s": "NASDAQ:AMZN",
+          "d": "an"
+        },
+        {
+          "s": "NYSE:F",
+          "d": "fd"
+        },
+        {
+          "s": "MIL:RACE",
+          "d": "fe"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Commodities",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!",
+          "d": "S&P 500"
+        },
+        {
+          "s": "CME:6E1!",
+          "d": "Euro"
+        },
+        {
+          "s": "COMEX:GC1!",
+          "d": "Gold"
+        },
+        {
+          "s": "NYMEX:CL1!",
+          "d": "Crude Oil"
+        },
+        {
+          "s": "NYMEX:NG1!",
+          "d": "Natural Gas"
+        },
+        {
+          "s": "CBOT:ZC1!",
+          "d": "Corn"
+        }
+      ],
+      "originalTitle": "Commodities"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CME:GE1!",
+          "d": "Eurodollar"
+        },
+        {
+          "s": "CBOT:ZB1!",
+          "d": "T-Bond"
+        },
+        {
+          "s": "CBOT:UB1!",
+          "d": "Ultra T-Bond"
+        },
+        {
+          "s": "EUREX:FGBL1!",
+          "d": "Euro Bund"
+        },
+        {
+          "s": "EUREX:FBTP1!",
+          "d": "Euro BTP"
+        },
+        {
+          "s": "EUREX:FGBM1!",
+          "d": "Euro BOBL"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD"
+        },
+        {
+          "s": "FX:GBPUSD"
+        },
+        {
+          "s": "FX:USDJPY"
+        },
+        {
+          "s": "FX:USDCHF"
+        },
+        {
+          "s": "FX:AUDUSD"
+        },
+        {
+          "s": "FX:USDCAD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
 }
-  );
   </script>
-</div></div>
-			</div>
-
+</div>
+<!-- TradingView Widget END -->
 
 </body>
 </html>
